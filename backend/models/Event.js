@@ -12,3 +12,4 @@ const eventSchema = new mongoose.Schema({//Crée un nouveau schéma Mogoose nomm
 });
 
 module.exports = mongoose.model('Event', eventSchema);//Crée et exporte le modèle Event basé sur ce schéma 
+ 

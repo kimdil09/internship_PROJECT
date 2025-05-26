@@ -1,5 +1,5 @@
 const User = require('../models/User');//importe le modèle utilisateur pour interagir avec la base de données MongoDB 
-const bcrypt = require('bcryptjs');//importe bcruptjs pour hasher(chiffrer) et comparer les mots de passe
+const bcrypt = require('bcryptjs');//importe bcryptjs pour hasher(chiffrer) et comparer les mots de passe
 const jwt = require('jsonwebtoken');//importe jsonwebtoken
 
 exports.signup = async (req, res) => {//Déclare la fonction signup (exportée pour etre utilisée dans les routes)
